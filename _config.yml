@@ -8,20 +8,20 @@ blog: True
 lang: en
 
 # Search engine optimization settings
-title: Grape Academic Theme
-tagline: A jekyll theme for academic portfolios
+title: Gabriel Barrett Portfolio Page
+tagline: A compilation of Gabriel's school and career work
 description: The demonstration page for the Grape Academic Theme, a jekyll theme for academic portfolios based on the Grape Theme.
 author: Gabriel Barrett (gbarrett101)
 twitter:
-  username: chrjabs
+  username: gbarrett101
   card: A jekyll theme for academic portfolios
 logo: /assets/img/smile.png
 social:
-  name: Christoph Jabs
+  name: Gabriel Barrett
   links:
-    - https://twitter.com/chrjabs
-    - https://github.com/chrjabs
-locale: en_GB
+    # - https://twitter.com/chrjabs
+    - https://github.com/gbarrett101
+locale: en_US
 
 # Page Settings
 theme_settings:

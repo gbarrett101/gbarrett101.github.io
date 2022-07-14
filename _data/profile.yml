@@ -1,11 +1,27 @@
 image: assets/img/smile.png
-username: Christoph Jabs
-description: creator of the Grape-Academic-Theme! Grape-Academic-Theme is a modification of the Grape-Theme by naye0ng, making it more suitable as an academic portfolio.
-webpage: https://chrjabs.github.io
+username: Gabriel Barrett
+description: Urban planning and computer science student at MIT with interests in public transit and housing. #Firm believe that a better world is possible. 
+webpage: https://gbarrett101.github.io/
 experience:
-  - start: 2017-05-03
-    end: 2018-05-06
-    experience : company name, title
+  - start: June 2022
+    end: Present
+    experience: WMATA | Performance Analyst Intern
+  - start: February 2022
+    end: June 2022
+    experience: MIT City Form Lab | Researcher
+  - start: June 2021
+    end: August 2021
+    experience: Massachusetts DOER | Policy Analyst Intern
+  - start: June 2021
+    end: August 2021
+    experience : Arlington County | Transportation Planning Intern
+  - start: March 2021
+    end: June 2021
+    experience : Metropolitan Area Planning Council | Economic Development Intern
+  - start: September 2020
+    end: January 2021
+    experience : Move Minnesota | Data Science Intern
+
 interests:
   - Interest 1
   - Interest 2
@@ -18,12 +34,12 @@ social:
   scholar: 
   publons: 
   research_gate: 
-  linkedin:  # Full URL 
-  github: chrjabs
+  linkedin:  https://www.linkedin.com/in/gabriel-barrett/ # Full URL 
+  github: gbarrett101
   gitlab: 
-  bitbucket: chrjabs
+  bitbucket: 
   google_plus:
-  twitter: chrjabs
+  twitter: 
   youtube:
   facebook:
   instagram:
