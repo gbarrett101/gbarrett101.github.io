@@ -5,25 +5,48 @@ webpage: https://gbarrett101.github.io/
 experience:
   - start: June 2022
     end: Present
-    experience: WMATA | Performance Analyst Intern
+    employer: WMATA
+    url: https://www.wmata.com
+    experience: Performance Analyst Intern
+
   - start: February 2022
     end: June 2022
-    experience: MIT City Form Lab | Researcher
+    employer: MIT City Form Lab
+    url: http://cityform.mit.edu/
+    experience: Researcher
+
   - start: June 2021
     end: August 2021
-    experience: Massachusetts DOER | Policy Analyst Intern
+    employer: Massachusetts Dept. of Energy Resources
+    url: https://www.mass.gov/orgs/massachusetts-department-of-energy-resources
+    experience: Policy Analyst Intern
+
   - start: June 2021
     end: August 2021
-    experience : Arlington County | Transportation Planning Intern
+    employer: Arlington County DES
+    url: https://www.arlingtonva.us/Government/Departments/DES
+    experience : Transportation Planning Intern
+
   - start: March 2021
     end: June 2021
-    experience : Metropolitan Area Planning Council | Economic Development Intern
+    employer: Metropolitan Area Planning Council
+    url: https://www.mapc.org
+    experience : Economic Development Intern
+
   - start: September 2020
     end: January 2021
-    experience : Move Minnesota | Data Science Intern
+    employer: Move Minnesota
+    url: https://www.movemn.org/
+    experience : Data Science Intern
+
+  - start: September 2020
+    end: August 2021
+    employer: MIT Living Wage Calculator
+    url: https://livingwage.mit.edu/
+    experience : Undergraduate Researcher
 
 interests:
-  - Interest 1
+  - Public Transit
   - Interest 2
 skills: 
   - skill: HTML5 & CSS
@@ -42,4 +65,4 @@ social:
   twitter: 
   youtube:
   facebook:
-  instagram:
+  instagram: 
