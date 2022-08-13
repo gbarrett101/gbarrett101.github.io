@@ -8,12 +8,15 @@
         <!-- home -->
         {% when none %}
         <li class="current">Home</li>
-        <a href="{{ '/publications' | relative_url }}">
+        <a href="{{ '/documents/resume.pdf' | relative_url }}">
+          <li class="btn-nav">Resume</li>
+        </a>
+        <!-- <a href="{{ '/publications' | relative_url }}">
           <li class="btn-nav">Publications</li>
-        </a>
-        <a href="{{ '/presentations' | relative_url }}">
+        </a> -->
+        <!-- <a href="{{ '/presentations' | relative_url }}">
           <li class="btn-nav">Presentations</li>
-        </a>
+        </a> -->
         {% if site.blog %}
         <a href="{{ '/blog' | relative_url }}">
           <li class="btn-nav">Blog</li>
