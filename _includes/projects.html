@@ -30,7 +30,7 @@
           <div class="icons">
             {% if project.url %}
             {% assign url = project.url %}
-            <a href="{{ url }}"><i class="far fa-eye"></i></a>
+            <a title="Click to see full project" href="{{ url }}"><i class="far fa-eye"></i></a>
             {% endif %}
             {% if project.modal %}
             <a title="{{ id }}" onClick="open_modal(this.title)" class="modal-btn"><i class="fas fa-plus"></i></a>

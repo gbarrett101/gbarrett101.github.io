@@ -1,42 +1,89 @@
+# - project :
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+#     image:
+#       path: "portfolio.png" # path: assets/project/
+#       alt: "A screenshot of the portfolio page"
+#     date: 05/2022 &ndash; Developing
+#     title: Grape-Theme
+#     summary: Academic portfolio jekyll theme.
+#     description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+#     contents:
+#         - title: 1. Portfolio Page
+#           image:
+#             path: portfolio.png
+#             alt: "A screenshot of the portfolio page"
+#           description: <li>Concise portfolio page</li>
+#             <li>Recent publications</li>
+#             <li>Projects</li>
+#         - title: 2. Optional Blog Functionality
+#           image:
+#             path: home.png
+#             alt: "A screenshot of the blog page"
+#           description: <li>Responsive Layout</li>
+#             <li>Tags</li> 
+#             <li>Pagination</li>
+#         - title: 3. Tags Page
+#           image:
+#             path: tags.png
+#             alt: "A screenshot of the tags page"
+#           description: <li>Responsive Layout</li> 
+#             <li>Tags</li> 
+
+# - project:
+#     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+#     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
+#     url:  # Full URL
+#     image: # path: assets/project/
+#     date: 06/2019 &ndash; Developing
+#     title: Dummy project
+#     summary: This is a Dummy
+#     description:  
+
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://github.com/chrjabs/Grape-Academic-Theme # Full URL
+    url: /documents/bronx-presentation.pdf # Full URL
     image:
-      path: "portfolio.png" # path: assets/project/
-      alt: "A screenshot of the portfolio page"
-    date: 05/2022 &ndash; Developing
-    title: Grape-Theme
-    summary: Academic portfolio jekyll theme.
-    description: A modification of the Grape-Theme for jekyll to be useable as an academic portfolio.
+      path: "bronx/transit-desert.png" # path: assets/project/
+      alt: "Map of transit deserts in the Bronx"
+    date: 05/2022 &ndash; Completed
+    title: The Long Way Round
+    summary: An analysis on transit deserts and deficiencies in The Bronx
+    description: Final project for 11.S951 Senseable Cities lab
     contents:
-        - title: 1. Portfolio Page
+        - title: 1. Look at Current Commuting Trends
           image:
-            path: portfolio.png
-            alt: "A screenshot of the portfolio page"
-          description: <li>Concise portfolio page</li>
-            <li>Recent publications</li>
-            <li>Projects</li>
-        - title: 2. Optional Blog Functionality
+            path: bronx/chart-slide.svg
+            alt: "Slide depicting charts with Bronx Commuting info"
+        - title: 2. Mapping out Transit Deficiencies in New York
           image:
-            path: home.png
-            alt: "A screenshot of the blog page"
-          description: <li>Responsive Layout</li>
-            <li>Tags</li> 
-            <li>Pagination</li>
-        - title: 3. Tags Page
+            path: bronx/desert-slide.svg
+            alt: "Map of transit deserts in the Bronx"
+        - title: 3. Sampling of Points Throughout the Borough
           image:
-            path: tags.png
-            alt: "A screenshot of the tags page"
-          description: <li>Responsive Layout</li> 
-            <li>Tags</li> 
+            path: bronx/points-slide.svg
+            alt: "Slide depicting charts with Bronx Commuting info"
+        - title: 4. Calculating Travel Mode Time Imbalance
+          image:
+            path: bronx/times-slide.svg
+            alt: "Slide of charts showing car vs transit mode imbalance"
+          description: Travel times acquired using Google Distance Matrix API
+        - title: 5. Performing Component Analysis
+          image:
+            path: bronx/component-slide.svg
+            alt: "Slide with directional component analysis charts"
+        - title: For full slides click on the see project button
 
-- project:
+- project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
-    modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url:  # Full URL
-    image: # path: assets/project/
-    date: 06/2019 &ndash; Developing
-    title: Dummy project
-    summary: This is a Dummy
-    description:  
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: /documents/eviction-presentation.pdf # Full URL
+    image:
+      path: "eviction/eviction-map.png" # path: assets/project/
+      alt: "Map of transit deserts in the Bronx"
+    date: 05/2021 &ndash; Completed
+    title: No Place Like Home
+    summary: An Analysis on Pre and “Post” Pandemic Evictions in Boston
+    description: Final project for 11.188 Intro to GIS
