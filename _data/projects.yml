@@ -44,14 +44,14 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: True # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: /documents/bronx-presentation.pdf # Full URL
+    url: /documents/bronx-report.pdf # Full URL
     image:
       path: "bronx/transit-desert.png" # path: assets/project/
       alt: "Map of transit deserts in the Bronx"
     date: 05/2022 &ndash; Completed
     title: The Long Way Round
-    summary: An analysis on transit deserts and deficiencies in The Bronx
-    description: Final project for 11.S951 Senseable Cities lab
+    summary: Final project for 11.S951 Senseable Cities lab
+    description: A report on transit deserts and deficiencies in The Bronx
     contents:
         - title: 1. Look at Current Commuting Trends
           image:
@@ -74,7 +74,7 @@
           image:
             path: bronx/component-slide.svg
             alt: "Slide with directional component analysis charts"
-        - title: For full slides click on the see project button
+        - title: For full slide deck click <u><a href="/documents/bronx-presentation.pdf">here</a></u>
 
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -85,5 +85,17 @@
       alt: "Map of transit deserts in the Bronx"
     date: 05/2021 &ndash; Completed
     title: No Place Like Home
-    summary: An Analysis on Pre and “Post” Pandemic Evictions in Boston
-    description: Final project for 11.188 Intro to GIS
+    summary: Final project for 11.188 Intro to GIS
+    description: An Analysis on Pre and “Post” Pandemic Evictions in Boston
+  
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: https://www.movemn.org/wp-content/uploads/2021/04/The-Hidden-Impacts-of-Vehicle-Parking-and-Parking-Policy_Move-Minnesota_April-2021.pdf # Full URL
+    image:
+      path: "parking/yellow-car.jpg" # path: assets/project/
+      alt: "Image of yellow car"
+    date: 04/2021 &ndash; Completed
+    title: The Hidden Impacts of Vehicle Parking and Parking Policy
+    summary: 
+    description: A study on the effect of parking minimums on the city of St. Paul
