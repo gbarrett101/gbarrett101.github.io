@@ -40,6 +40,30 @@
 #     title: Dummy project
 #     summary: This is a Dummy
 #     description:  
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    # url: /documents/bronx-report.pdf # Full URL
+    image:
+      path: "thesis/central-hub.png" # path: assets/project/
+      alt: "Map of proposal for night bus service in Boston"
+    date: May 2023 &ndash; Continuing for MCP thesis
+    title: Night Owl Buses in Boston 
+    summary: Undergraduate Thesis
+    description: Undergraduate thesis studying whether overnight MBTA bus service can meet the need workers who currently lack any transit options (no link yet but I plan on adding a blog post soon)
+
+
+- project :
+    print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
+    modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
+    url: http://finditfunditphilly.com/ # Full URL
+    image:
+      path: "philly/ffp.jpg" # path: assets/project/
+      alt: "Home screen of Find it, Fund it, Philly Website"
+    date: Dec 2022 &ndash; Completed (prototype)
+    title: Find it, Fund it, Philly
+    summary: "Final project for 11.138 Crowd Sourced City: Civic Data Design Lab"
+    description: A website meant to help local Philadelphia community organizations identify problems in their communities and connect them with funding resources 
 
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
@@ -48,7 +72,7 @@
     image:
       path: "bronx/transit-desert.png" # path: assets/project/
       alt: "Map of transit deserts in the Bronx"
-    date: 05/2022 &ndash; Completed
+    date: May 2022 &ndash; Completed
     title: The Long Way Round
     summary: Final project for 11.S951 Senseable Cities lab
     description: A report on transit deserts and deficiencies in The Bronx
@@ -79,11 +103,11 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: /documents/eviction-presentation.pdf # Full URL
+    url: /documents/eviction-presentation.pdf 
     image:
       path: "eviction/eviction-map.png" # path: assets/project/
       alt: "Map of transit deserts in the Bronx"
-    date: 05/2021 &ndash; Completed
+    date: May 2021 &ndash; Completed
     title: No Place Like Home
     summary: Final project for 11.188 Intro to GIS
     description: An Analysis on Pre and “Post” Pandemic Evictions in Boston
@@ -95,7 +119,7 @@
     image:
       path: "parking/yellow-car.jpg" # path: assets/project/
       alt: "Image of yellow car"
-    date: 04/2021 &ndash; Completed
+    date: Apr 2021 &ndash; Completed
     title: The Hidden Impacts of Vehicle Parking and Parking Policy
     summary: 
     description: A study on the effect of parking minimums on the city of St. Paul

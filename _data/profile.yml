@@ -3,8 +3,21 @@ username: Gabriel Barrett
 description: Urban planning and computer science student at MIT with interests in public transit and housing. #Firm believe that a better world is possible. 
 webpage: https://gbarrett101.github.io/
 experience:
-  - start: June 2022
+
+  - start: September 2022
     end: Present
+    employer: MIT Transit Lab
+    url: https://mobility.mit.edu/
+    experience: Researcher
+
+  - start: June 2023
+    end: August 2023
+    employer: Boston Consulting Group
+    url: https://www.bcg.com
+    experience: Summer Associate
+
+  - start: June 2022
+    end: August 2022
     employer: WMATA
     url: https://www.wmata.com
     experience: Performance Analyst Intern
@@ -53,7 +66,7 @@ interests:
 skills: 
   - skill: Python (Pandas, PyTorch, Django...)
     value: 90  # Percent value
-  - skill: GIS (Mostly QGIS)
+  - skill: GIS (QGIS, ArcGIS)
     value: 90
   - skill: R
     value: 80
