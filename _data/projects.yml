@@ -63,7 +63,7 @@
     date: Dec 2022 &ndash; Completed (prototype)
     title: Find it, Fund it, Philly
     summary: "Final project for 11.138 Crowd Sourced City: Civic Data Design Lab"
-    description: A website meant to help local Philadelphia community organizations identify problems in their communities and connect them with funding resources 
+    description: A website meant to help local Philadelphia community organizations identify problems in their communities and connect them with funding resources (site temporarily down)
 
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
