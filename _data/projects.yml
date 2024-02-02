@@ -56,14 +56,14 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: http://finditfunditphilly.com/ # Full URL
+    url: https://gbarrett101.github.io/find-it-fund-it-philly/ # Full URL
     image:
       path: "philly/ffp.jpg" # path: assets/project/
       alt: "Home screen of Find it, Fund it, Philly Website"
     date: Dec 2022 &ndash; Completed (prototype)
     title: Find it, Fund it, Philly
     summary: "Final project for 11.138 Crowd Sourced City: Civic Data Design Lab"
-    description: A website meant to help local Philadelphia community organizations identify problems in their communities and connect them with funding resources (site temporarily down)
+    description: A website meant to help local Philadelphia community organizations identify problems in their communities and connect them with funding resources
 
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
