@@ -127,7 +127,7 @@
 - project :
     print: True # If 'False' is selected, it will not be displayed in 'home.html > aside > .proj-content'. 
     modal: False # If 'True' is selected, modal can open in 'portfolio.html'. 
-    url: https://www.youtube.com/watch?v=ieu0FlSjk6U&t=366s
+    url: https://www.youtube.com/watch?v=ieu0FlSjk6U
     image:
       path: "tableau.jpg" 
       alt: "Screenshot from Tableau Mapping Tutorial"
